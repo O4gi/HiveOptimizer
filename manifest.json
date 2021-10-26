@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Bedrock Edition FPS Optimizer. Disables particles, adds lowfire, and has cape animations (mahdi#6403)",
+        "name": "§0FPS Optimizer§0",
+        "uuid": "77826418-ea48-11eb-9a03-0242ac160003",
+        "version": [3, 0, 0],
+        "min_engine_version": [1, 14, 0],
+        "vanilla": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "Bedrock Edition FPS Optimizer",
+            "type": "resources",
+            "uuid": "778266a2-ea48-11eb-9a03-0242ac139003",
+            "version": [0, 0, 1]
+        }
+    ],
+    "subpacks":[
+        {
+        "folder_name":"noblocks",
+        "name":"Vanilla Blocks",
+        "memory_tier":2
+	},
+        {
+        "folder_name":"fullbright",
+        "name":"FullBright Mode",
+        "memory_tier":2
+         }
+     ]
+}
